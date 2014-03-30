@@ -1,0 +1,46 @@
+{
+    "name": "dieze/dz-service-module",
+    "description": "Module ZF2 de gestion de services",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "module",
+        "service",
+        "entity",
+        "mapper",
+        "library"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/dieze/DzServiceModule",
+    "authors": [
+        {
+            "name": "Desfourneaux Adrien (aka Dieze)",
+            "email": "dieze51@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "dieze51@gmail.com",
+        "issues": "https://github.com/dieze/DzServiceModule/issues",
+        "wiki": "https://github.com/dieze/DzServiceModule/wiki",
+        "source": "https://github.com/dieze/DzServiceModule"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/orm": "~2",
+        "zendframework/zend-eventmanager": "~2.1",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-mvc": "~2.1",
+        "zendframework/zend-servicemanager": "~2.1",
+        "zendframework/zend-stdlib": "~2.1"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DzServiceModule": "src/"
+        }
+    }
+}
